@@ -1,0 +1,5 @@
+v = float(input('Digite o preço do item: '))
+#print('O preço do item é R${:.2f}, e com desconto ficará: R${:.2f}'.format(v, v*0.95)
+#np = v - (v * 5 / 100)
+#print('O preço do item é R${:.2f}, e com desconto ficará: R${:.2f}'.format(v, np))
+print('O preço do item a vista é {} (5% de desconto) e o preço a prazo é {} (8% de aumento).'.format(v*0.95, v*1.08))

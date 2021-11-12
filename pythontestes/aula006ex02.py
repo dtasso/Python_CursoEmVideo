@@ -1,0 +1,12 @@
+n = input('digite algo: ')
+print(type(n))
+print('pode ser um número?', n.isnumeric())
+print('pode ser uma letra?', n.isalpha())
+print('pode ser um alphanumérico?', n.isalnum())
+print('Tem espaçoes?', n.isspace())
+print('Tem apenas letras maiúsculas? ', n.isupper())
+
+#n = input('digite algo: ')
+#print(n.isnumeric())
+#print(n.isalpha())
+#print(n.isalnum())

@@ -1,0 +1,11 @@
+n1 = int(input('Digite um valor: '))
+n2 = int(input('Digite outro valor: '))
+print('A \n soma vale \n {}'.format(n1+n2))
+print('A Multiplicação vale {}'.format(n1*n2))
+print('A Subtração vale {}'.format(n1-n2))
+print('A Divisão inteira vale {}'.format(n1//n2), end='   ')
+print('A Divisão vale {:.2f}'.format(n1/n2))
+print('A Potência vale {}'.format(n1**n2))
+
+#nome = input('Qual seu nome? ')
+#print('Prazer em te conhecer {:-^20}!'.format(nome))
