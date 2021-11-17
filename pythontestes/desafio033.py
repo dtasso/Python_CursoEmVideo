@@ -14,3 +14,20 @@ elif n3 > n1 or n3 > n2 and n1 > n2:
     print('O maior é {} e o menor é {}'.format(n3,n2))
 elif n3 > n1 or n3 > n2 and n2 > n1:
     print('O maior é {} e o menor é {}'.format(n3,n1))
+
+#Ver Menor
+menor = n1
+if n2<n1 and n2<n3:
+    menor = n2
+if n3<n1 and n3<n2:
+    menor = n3
+
+#ver Maior
+maior = n1
+if n2>n1 and n2>n3:
+    maior = n2
+if n3>n1 and n3>n2:
+    maior = n3
+
+print('O menor valor digitado foi {}'.format(menor))
+print('O Maior Valor digitado foi {}'.format(maior))
