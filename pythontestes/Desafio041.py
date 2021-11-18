@@ -1,4 +1,5 @@
-anoAtual = int(input('Digite o ano atual: '))
+from datetime import date
+anoAtual = date.today().year
 anoNasc = int(input('Digite o ano de nascimento do atleta: '))
 
 idade = anoAtual - anoNasc
@@ -9,7 +10,7 @@ elif idade <= 14:
     print('Categoria: Infantil')
 elif idade <= 19:
     print('Categoria: Junior')
-elif idade == 20:
+elif idade <= 25:
     print('Categoria: Sênior')
 else:
     print('Categoria: Master')
