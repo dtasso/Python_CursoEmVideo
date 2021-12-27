@@ -16,5 +16,9 @@ sleep(2.5)
 while jogador != computador:
     jogador = int(input('Número errado tente novamente.'))
     count += 1
+    if jogador > computador:
+        print('É um número menor...')
+    else:
+        print('É um número maior...')
 
 print('Você conseguiu me vencer o número pensado foi {} e você usou {} chances.'.format(computador, count))
